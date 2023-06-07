@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+form {
+  margin-left: 830px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 250px;
+}
+thead:hover {
+  background-color: green;
+  cursor: pointer;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #dafeda;
+}
+input[type="text"]:focus {
+  width: auto;
+}
+input[type="email"]:focus {
+  width: auto;
+}
+input[type="password"]:focus {
+  width: auto;
+}
+input[type="date"]:focus {
+  width: auto;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 5px;
+}
+button:hover {
+  background-color: green;
+}
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+body {
+  font-family: cursive;
+  background-image: url("https://cdn.glitch.global/21002033-84af-4e0d-8609-3a501f0662a6/bg.jpg?v=1682849457685");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

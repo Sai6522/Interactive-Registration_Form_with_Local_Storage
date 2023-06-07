@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form onsubmit="event.preventDefault(); register();">
+      <center><h2>Registration Form</h2></center>
+      <label for="name"
+        >Name:
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter full name"
+          name="name"
+          required
+      /></label>
+      <label for="email"
+        >Email:
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter email"
+          name="email"
+          required
+      /></label>
+      <label for="password"
+        >Password:
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter password"
+          name="password"
+          required
+      /></label>
+      <label for="dob"
+        >Date of Birth: <input type="date" id="dob" name="dob" required /><br
+      /></label>
+      <label
+        ><input type="checkbox" id="terms" name="terms" required /> Accept Terms
+        &amp; Conditions</label
+      ><br />
+      <button type="submit">submit</button>
+    </form>
+    <table id="sai" border="3" style="width: 50%;">
+      <caption>
+        <h1 style="color: red;">Entries</h1>
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Dob</th>
+          <th>Accepted terms?</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

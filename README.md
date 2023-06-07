@@ -4,7 +4,7 @@ This is a simple registration form with additional validations and local browser
 
 ## Usage
 
-1. Access the Registration Form webpage by [clicking here]([https://laced-steep-juravenator.glitch.me]).
+1. Access the Registration Form webpage by [clicking here](https://laced-steep-juravenator.glitch.me).
 
 2. Fill out the registration form with the required information:
    - **Name**: Enter your full name.
